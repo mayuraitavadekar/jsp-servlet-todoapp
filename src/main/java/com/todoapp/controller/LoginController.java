@@ -1,4 +1,4 @@
-package com.todoapp.web;
+package com.todoapp.controller;
 
 import java.io.IOException;
 
@@ -41,12 +41,12 @@ public class LoginController extends HttpServlet {
 		try {
 			boolean status = loginDao.validate(loginBean);
 			if(status) {
+				System.out.println("login successfull");
 				RequestDispatcher rd = req.getRequestDispatcher("todo/todo-list.jsp");
 				rd.forward(req, res);
 			}
 			else {
-				HttpSession session = req.getSession();
-				
+				res.sendRedirect("Error.jsp");
 			}
 		} catch (Exception e) {
 			System.out.println("status is false. error in loggin in.");

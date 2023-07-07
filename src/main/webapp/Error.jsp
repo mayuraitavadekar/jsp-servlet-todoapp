@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<h1>Error occurred.</h1>
+	<a href="login">click here to login</a>
 </body>
 </html>

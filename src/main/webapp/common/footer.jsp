@@ -7,11 +7,21 @@
     background-color: tomato;
 }
 
+.footer-content-div {
+	text-align: center;
+	margin-top: 12px;
+}
+
+a {
+	color: white;
+}
+
+
 </style>
 
 <footer class="footer font-small black">
-    <!-- Copyright -->
-  <div class="footer-copyright text-center py-3" style="color: white">© 2019 Copyright:
-        <a href="https://www.javaguides.net/" > <strong> Java Guides </strong></a>
-      </div>
+    
+  <div class="footer-content-div">
+       <a href="http://github.com/mayuraitavadekar" > <strong> Mayur Aitavadekar </strong></a>
+  </div>
 </footer>

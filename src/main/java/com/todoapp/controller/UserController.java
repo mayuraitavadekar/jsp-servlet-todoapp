@@ -1,4 +1,4 @@
-package com.todoapp.web;
+package com.todoapp.controller;
 
 import java.io.IOException;
 
